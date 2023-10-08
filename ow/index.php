@@ -837,7 +837,7 @@ if(!isset($client)){ header("location:logout.php"); }
                   <p
                     class="text-lg font-semibold text-gray-700 dark:text-gray-200"
                   >
-                   $ <?php
+                   <?php
 $sqlk="SELECT * FROM investors  ";
 $resultk=mysqli_query($conk,$sqlk);
 $rowcount=mysqli_num_rows($resultk);

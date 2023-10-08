@@ -627,9 +627,6 @@ if (isset($_GET['profile'])) {
             <div class="modal-content">
                 <div class="modal-body p-0">
                     <div class="profileBox pt-2 pb-2">
-                        <div class="image-wrapper">
-                            <img src="../ow/uploads/<?php echo $pix; ?>" alt="image" class="imaged  w36">
-                        </div>
                         <div class="in">
                             <strong><?php echo $client; ?></strong>
                             <div class="text-muted"><?php echo $aem; ?></div>

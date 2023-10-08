@@ -6,12 +6,38 @@
             $result = $conn->query($query);
             $num = number_format("$awa") . ".00";
             if ($result->num_rows > 0) {
-                echo '<div class="col-6">
-                    <div class="stat-box">
-                        <div class="title">Checking Balance</div>
-                        <div class="value text-success">$' . $num . '</div>
-                    </div>
-                </div>';
+                while ($row = $result->fetch_assoc()) {
+                    $acc_c = $row["accn"];
+                    if (isset($acc_c)) {
+                      $queryv2 = "SELECT SUM(anount) AS rtv2 FROM logs WHERE  client = '$u2' AND  status ='completed' AND tp='check' AND accn='$acc_c' ";
+                      $resultv2 = $conn->query($queryv2);
+                      if ($resultv2->num_rows > 0) {
+                        while ($rowv2 = $resultv2->fetch_assoc()) {
+                          $rtv2 = $rowv2["rtv2"];
+
+                        }
+                      } else {
+                        echo "0.00";
+                      }
+                      $queryvz2 = "SELECT SUM(anount) AS rtvz2 FROM logs WHERE  client = '$u2' AND  status ='debited' AND tp='check' AND accn='$acc_c' ";
+                      $resultvz2 = $conn->query($queryvz2);
+                      if ($resultvz2->num_rows > 0) {
+                        while ($rowvz2 = $resultvz2->fetch_assoc()) {
+                          $rtvz2 = $rowvz2["rtvz2"];
+                        }
+                      } else {
+                        echo "0.00";
+                      }
+                      $awamoney2 = $rtv2 - $rtvz2;
+                        echo '<div class="col-6">
+                            <div class="stat-box">
+                                <div class="title">Checking Balance</div>
+                                <div class="value mb-1">' . $acc_c . '</div>
+                                <div class="value text-success">$' . $awamoney2 . '</div>
+                            </div>
+                        </div>';
+                    }
+                }
             }
             ?>
             <?php
@@ -19,12 +45,40 @@
             $result = $conn->query($query);
             $num = number_format("$accb2") . ".00";
             if ($result->num_rows > 0) {
-                echo '<div class="col-6">
-                    <div class="stat-box">
-                        <div class="title">Savings Balance</div>
-                        <div class="value text-success">$' . $num . '</div>
-                    </div>
-                </div>';
+                while ($row = $result->fetch_assoc()) {
+                    $acc_s = $row["accn"];
+                    if (isset($acc_s)) {
+                      $queryv23 = "SELECT SUM(anount) AS rtv23 FROM logs WHERE  client = '$aus' AND  status ='completed' AND tp='save' AND accn='$acc_s' ";
+                      $resultv23 = $conn->query($queryv23);
+                      if ($resultv23->num_rows > 0) {
+                        while ($rowv23 = $resultv23->fetch_assoc()) {
+                          $rtv23 = $rowv23["rtv23"];
+                        }
+                      } else {
+                        echo "0.00";
+                      }
+
+                      $queryvz23 = "SELECT SUM(anount) AS rtvz23 FROM logs WHERE  client = '$aus' AND  status ='debited' AND tp='save' AND accn='$acc_s' ";
+                      $resultvz23 = $conn->query($queryvz23);
+                      if ($resultvz23->num_rows > 0) {
+                        while ($rowvz23 = $resultvz23->fetch_assoc()) {
+                          $rtvz23 = $rowvz23["rtvz23"];
+                        }
+                      } else {
+                        echo "0.00";
+                      }
+                      $awamoney3 = $rtv23 - $rtvz23;
+
+                      echo '<div class="col-6">
+                        <div class="stat-box">
+                            <div class="title">Savings Balance</div>
+                            <div class="value mb-1">$' . $acc_s . '</div>
+                            <div class="value text-success">$' . $awamoney3 . '</div>
+                        </div>
+                    </div>';
+                    }
+                  }
+               
             }
             ?>     
     
@@ -33,63 +87,40 @@
                     $result = $conn->query($query);
                     $num = number_format("$accb3") . ".00";
                     if ($result->num_rows > 0) {
-                        echo '<div data-bs-toggle="modal" data-bs-target="#exchangeActionSheetCD" class="col-6">
-                    <div class="stat-box">
-                        <div class="title">Certificate of Deposit</div>
-                        <div class="value text-success">$' . $num . '</div>
-                    </div>
-                </div>';
+                        while ($row = $result->fetch_assoc()) {
+                            $acc_cd = $row["accn"];
+                            if (isset($acc_cd)) {
+                              $queryvz = "SELECT SUM(anount) AS rtvz FROM logs WHERE  client = '$aus' AND  status ='debited' AND tp='fixed' AND accn='$acc_cd' ";
+                              $resultvz = $conn->query($queryvz);
+                              if ($resultvz->num_rows > 0) {
+                                while ($rowvz = $resultvz->fetch_assoc()) {
+                                  $rtvz = $rowvz["rtvz"];
+                                }
+                              } else {
+                                echo "0.00";
+                              }
+                              $queryv = "SELECT SUM(anount) AS rtv FROM logs WHERE  client = '$aus' AND  status ='completed' AND tp='fixed' AND accn='$acc_cd' ";
+                              $resultv = $conn->query($queryv);
+                              if ($resultv->num_rows > 0) {
+                                while ($rowv = $resultv->fetch_assoc()) {
+                                  $rtv = $rowv["rtv"];
+                                }
+                              } else {
+                                echo "0.00";
+                              }
+                              $awamoney = $rtv - $rtvz;
+                            echo '<div data-bs-toggle="modal" data-bs-target="#exchangeActionSheetCD" class="col-6">
+                                    <div class="stat-box">
+                                        <div class="title">Certificate of Deposit</div>
+                                        <div class="value mb-1">$' . $acc_cd . '</div>
+                                        <div class="value text-success">$' . $awamoney . '</div>
+                                    </div>
+                                </div>';
+                            }
+                        }
                     }
                     ?>
-                
-                <?php
-                $query = "SELECT * FROM investors JOIN users ON investors.userid = users.userid WHERE users.username='$u2' AND investors.type='checking'";
-                $result = $conn->query($query);
-                if ($result->num_rows > 0) {
-                    while ($row = $result->fetch_assoc()) {
-                        $acc = $row["accn"];
-                        echo '<div class="col-6">
-                                <div class="stat-box">
-                                    <div class="title">Account Number(Checking)</div>
-                                    <div class="value">' . $acc . '</div>
-                                </div>
-                            </div>';
-                    }
-                }
-                ?>    
-                
-                
-                <?php
-                $query = "SELECT * FROM investors JOIN users ON investors.userid = users.userid WHERE users.username='$u2' AND investors.type='savings'";
-                $result = $conn->query($query);
-                if ($result->num_rows > 0) {
-                    while ($row = $result->fetch_assoc()) {
-
-                        $acc = $row["accn"];
-                        echo '<div class="col-6">
-                                <div class="stat-box">
-                                    <div class="title">Account Number(Savings)</div>
-                                    <div class="value">' . $acc . '</div>
-                                </div>
-                            </div>';
-                    }
-                }
-                ?>    
-            <?php
-            $query = "SELECT * FROM investors JOIN users ON investors.userid = users.userid WHERE users.username='$u2' AND investors.type='cd'";
-            $result = $conn->query($query);
-            if ($result->num_rows > 0) {
-                while ($row = $result->fetch_assoc()) {
-                    $acc = $row["accn"];
-                    echo '<div class="col-6">
-                            <div class="stat-box">
-                                <div class="title">Account Number(CD)</div>
-                                <div class="value">' . $acc . '</div>
-                            </div>
-                        </div>';
-                }
-            }
-            ?>    
+                 
         </div>
         <!-- * Stats -->
         
