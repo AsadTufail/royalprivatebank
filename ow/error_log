@@ -1,0 +1,152 @@
+[25-Sep-2023 17:53:23 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[25-Sep-2023 17:53:23 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[25-Sep-2023 17:53:25 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[25-Sep-2023 18:29:09 UTC] PHP Notice:  Undefined variable: message in /home/rilec4e2uvot/public_html/ow/functions.php on line 319
+[25-Sep-2023 18:29:14 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rilec4e2uvot/public_html/ow/index.php:5) in /home/rilec4e2uvot/public_html/ow/topupn.php on line 122
+[25-Sep-2023 18:31:45 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/rilec4e2uvot/public_html/connect.php on line 1
+[25-Sep-2023 18:49:36 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[25-Sep-2023 18:49:36 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[25-Sep-2023 18:49:37 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[25-Sep-2023 18:54:37 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/rilec4e2uvot/public_html/connect.php on line 1
+[25-Sep-2023 18:54:38 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[25-Sep-2023 18:54:38 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[25-Sep-2023 18:54:38 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/rilec4e2uvot/public_html/connect.php on line 1
+[25-Sep-2023 18:54:39 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[25-Sep-2023 18:54:43 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[25-Sep-2023 18:54:46 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[25-Sep-2023 18:54:46 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[25-Sep-2023 18:54:51 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[25-Sep-2023 18:55:00 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[25-Sep-2023 18:55:07 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[25-Sep-2023 18:55:27 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[25-Sep-2023 18:56:35 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[25-Sep-2023 18:58:02 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[25-Sep-2023 19:00:10 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[25-Sep-2023 19:03:47 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[25-Sep-2023 19:23:17 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/rilec4e2uvot/public_html/connect.php on line 1
+[25-Sep-2023 19:39:44 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[25-Sep-2023 20:20:37 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[25-Sep-2023 21:30:19 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[25-Sep-2023 21:30:19 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[25-Sep-2023 21:30:19 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[25-Sep-2023 21:38:18 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[25-Sep-2023 21:38:18 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[25-Sep-2023 21:38:18 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[25-Sep-2023 21:48:42 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[25-Sep-2023 21:48:42 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[25-Sep-2023 21:48:42 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[25-Sep-2023 21:54:22 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[25-Sep-2023 21:54:22 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[25-Sep-2023 21:54:22 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[25-Sep-2023 21:56:45 UTC] PHP Notice:  Undefined variable: accb2 in /home/rilec4e2uvot/public_html/ow/signup.php on line 82
+[25-Sep-2023 21:56:45 UTC] PHP Notice:  Undefined variable: accb3 in /home/rilec4e2uvot/public_html/ow/signup.php on line 82
+[25-Sep-2023 21:58:51 UTC] PHP Notice:  Undefined variable: message in /home/rilec4e2uvot/public_html/ow/functions.php on line 319
+[25-Sep-2023 21:58:56 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rilec4e2uvot/public_html/ow/index.php:5) in /home/rilec4e2uvot/public_html/ow/topupn.php on line 122
+[25-Sep-2023 22:09:20 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/rilec4e2uvot/public_html/connect.php on line 1
+[25-Sep-2023 22:32:56 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[25-Sep-2023 22:32:56 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[25-Sep-2023 22:32:57 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[25-Sep-2023 22:33:39 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[25-Sep-2023 22:33:39 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[25-Sep-2023 22:33:39 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[25-Sep-2023 23:04:46 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[25-Sep-2023 23:04:46 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[25-Sep-2023 23:04:47 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[25-Sep-2023 23:04:48 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[25-Sep-2023 23:04:48 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[25-Sep-2023 23:04:49 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[25-Sep-2023 23:05:06 UTC] PHP Notice:  session_start(): A session had already been started - ignoring in /home/rilec4e2uvot/public_html/connect.php on line 1
+[25-Sep-2023 23:15:41 UTC] PHP Notice:  Undefined variable: message in /home/rilec4e2uvot/public_html/ow/functions.php on line 319
+[25-Sep-2023 23:15:48 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rilec4e2uvot/public_html/ow/index.php:5) in /home/rilec4e2uvot/public_html/ow/topupn.php on line 123
+[25-Sep-2023 23:21:31 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[25-Sep-2023 23:21:31 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[25-Sep-2023 23:21:31 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[25-Sep-2023 23:21:38 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[25-Sep-2023 23:21:38 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[25-Sep-2023 23:21:38 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[25-Sep-2023 23:22:05 UTC] PHP Notice:  Undefined variable: message in /home/rilec4e2uvot/public_html/ow/functions.php on line 319
+[25-Sep-2023 23:22:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rilec4e2uvot/public_html/ow/index.php:5) in /home/rilec4e2uvot/public_html/ow/topupn.php on line 123
+[25-Sep-2023 23:44:10 UTC] PHP Warning:  A non-numeric value encountered in /home/rilec4e2uvot/public_html/ow/topupn.php on line 36
+[25-Sep-2023 23:44:10 UTC] PHP Notice:  Undefined variable: message in /home/rilec4e2uvot/public_html/ow/functions.php on line 319
+[25-Sep-2023 23:44:15 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rilec4e2uvot/public_html/ow/index.php:5) in /home/rilec4e2uvot/public_html/ow/topupn.php on line 123
+[26-Sep-2023 00:21:01 UTC] PHP Notice:  Undefined variable: accb2 in /home/rilec4e2uvot/public_html/ow/signup.php on line 82
+[26-Sep-2023 00:21:01 UTC] PHP Notice:  Undefined variable: accb3 in /home/rilec4e2uvot/public_html/ow/signup.php on line 82
+[26-Sep-2023 00:21:02 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[26-Sep-2023 00:21:02 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[26-Sep-2023 00:21:02 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[26-Sep-2023 00:22:02 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[26-Sep-2023 00:22:02 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[26-Sep-2023 00:22:02 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[26-Sep-2023 00:22:06 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[26-Sep-2023 00:22:06 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[26-Sep-2023 00:22:06 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[26-Sep-2023 00:44:45 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[26-Sep-2023 00:44:45 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[26-Sep-2023 00:44:45 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[26-Sep-2023 00:55:15 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[26-Sep-2023 00:55:15 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[26-Sep-2023 00:55:15 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[26-Sep-2023 00:55:21 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[26-Sep-2023 00:55:21 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[26-Sep-2023 00:55:21 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[26-Sep-2023 00:58:18 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[26-Sep-2023 00:59:41 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[26-Sep-2023 00:59:41 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[26-Sep-2023 00:59:41 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[26-Sep-2023 01:00:20 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[26-Sep-2023 01:00:20 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[26-Sep-2023 01:00:20 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[26-Sep-2023 01:01:24 UTC] PHP Warning:  A non-numeric value encountered in /home/rilec4e2uvot/public_html/ow/topupn.php on line 36
+[26-Sep-2023 01:01:24 UTC] PHP Notice:  Undefined variable: message in /home/rilec4e2uvot/public_html/ow/functions.php on line 319
+[26-Sep-2023 01:01:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rilec4e2uvot/public_html/ow/index.php:5) in /home/rilec4e2uvot/public_html/ow/topupn.php on line 123
+[26-Sep-2023 01:11:18 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[26-Sep-2023 01:11:18 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[26-Sep-2023 01:11:18 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[26-Sep-2023 11:24:59 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[26-Sep-2023 11:24:59 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[26-Sep-2023 11:25:00 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[26-Sep-2023 13:05:32 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[26-Sep-2023 13:05:32 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[26-Sep-2023 13:05:33 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[26-Sep-2023 15:08:54 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[26-Sep-2023 15:08:54 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[26-Sep-2023 15:08:55 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[26-Sep-2023 16:20:46 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[26-Sep-2023 16:20:46 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[26-Sep-2023 16:20:51 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[26-Sep-2023 16:39:26 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[26-Sep-2023 16:39:26 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[26-Sep-2023 16:39:26 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[26-Sep-2023 17:47:07 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[26-Sep-2023 17:47:07 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[26-Sep-2023 17:47:07 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[26-Sep-2023 18:05:20 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[26-Sep-2023 18:30:27 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[26-Sep-2023 18:37:20 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[27-Sep-2023 11:41:29 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[27-Sep-2023 11:41:29 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[27-Sep-2023 11:41:30 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[27-Sep-2023 11:43:44 UTC] PHP Notice:  Undefined variable: accb2 in /home/rilec4e2uvot/public_html/ow/signup.php on line 82
+[27-Sep-2023 11:43:44 UTC] PHP Notice:  Undefined variable: accb3 in /home/rilec4e2uvot/public_html/ow/signup.php on line 82
+[27-Sep-2023 14:47:35 UTC] PHP Notice:  Undefined variable: message in /home/rilec4e2uvot/public_html/ow/functions.php on line 319
+[27-Sep-2023 14:47:40 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rilec4e2uvot/public_html/ow/index.php:5) in /home/rilec4e2uvot/public_html/ow/topupn.php on line 123
+[27-Sep-2023 15:41:14 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[27-Sep-2023 15:41:14 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[27-Sep-2023 15:41:14 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[27-Sep-2023 15:47:53 UTC] PHP Notice:  Undefined variable: accb2 in /home/rilec4e2uvot/public_html/ow/signup.php on line 82
+[27-Sep-2023 15:47:53 UTC] PHP Notice:  Undefined variable: accb3 in /home/rilec4e2uvot/public_html/ow/signup.php on line 82
+[27-Sep-2023 15:50:19 UTC] PHP Notice:  Undefined variable: message in /home/rilec4e2uvot/public_html/ow/functions.php on line 319
+[27-Sep-2023 15:50:24 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rilec4e2uvot/public_html/ow/index.php:5) in /home/rilec4e2uvot/public_html/ow/topupn.php on line 123
+[27-Sep-2023 15:51:15 UTC] PHP Notice:  Undefined variable: message in /home/rilec4e2uvot/public_html/ow/functions.php on line 319
+[27-Sep-2023 15:51:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/rilec4e2uvot/public_html/ow/index.php:5) in /home/rilec4e2uvot/public_html/ow/topupn.php on line 123
+[27-Sep-2023 16:33:47 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[27-Sep-2023 16:33:47 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[27-Sep-2023 16:33:47 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[27-Sep-2023 16:38:47 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[27-Sep-2023 16:38:47 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[27-Sep-2023 16:38:52 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
+[27-Sep-2023 16:39:38 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[27-Sep-2023 16:39:38 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[27-Sep-2023 16:44:07 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 2
+[27-Sep-2023 16:44:07 UTC] PHP Notice:  Undefined index: u2 in /home/rilec4e2uvot/public_html/ow/index.php on line 614
+[27-Sep-2023 16:44:07 UTC] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/rilec4e2uvot/public_html/ow/logout.php on line 2
