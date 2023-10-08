@@ -37,7 +37,66 @@
 		    <!--</tr>-->
 		   </tbody>
 		   </table>
+		   <?php
+		
+		if ($_SERVER["REQUEST_METHOD"] == "POST") {
+			$targetDirectory = "../uploads/userdocs/"; 
+			$targetFile =$targetDirectory . basename($_FILES["user_doc"]["name"]);
+			$uploadOk = 1;
+			
+			// Check if the file already exists
+			if (file_exists($targetFile)) {
+				echo "Sorry, the file already exists.";
+				$uploadOk = 0;
+			}
+			
+			// Check file size (you can set a maximum file size)
+			
+			
+			// Allow certain file formats (you can customize this)
+			$allowedExtensions = array("jpg", "jpeg", "png","pdf","doc","docx");
+			$fileExtension = strtolower(pathinfo($targetFile, PATHINFO_EXTENSION));
+			if (!in_array($fileExtension, $allowedExtensions)) {
+				echo "Sorry, only JPG, JPEG, PNG, DOC and PDF files are allowed.";
+				$uploadOk = 0;
+			}
+			
+			// Check if $uploadOk is set to 0 by an error
+			if ($uploadOk == 0) {
+				echo "Sorry, your file was not uploaded.";
+			} else {
+				// Move the file to the desired location
+				if (move_uploaded_file($_FILES["user_doc"]["tmp_name"], $targetFile)) {
+					echo "The file " . basename($_FILES["user_doc"]["name"]) . " has been uploaded.";
+					// Now, you can save the file information to the database
+					// Replace the following code with your database connection and query
+					
+					$filename = basename($_FILES["user_doc"]["name"]);
+					$file_path = $targetFile;
+					$sql = "INSERT INTO docs (userid, file_path) VALUES ('$aid','$filename')";
+					
+					if ($conn->query($sql) === TRUE) {
+						echo "File information saved to the database.";
+					} else {
+						echo "Error: " . $sql . "<br>" . $conn->error;
+					}
+					
+					$conn->close();
+				} else {
+					echo "Sorry, there was an error uploading your file.";
+				}
+			}
+		}
+		?>
 
+		   <h4>Upload Document</h4>
+			<form action="" method="POST" enctype="multipart/form-data">
+				<label for="doc">Upload your file(s)</label>
+			<input type="file" name="user_doc" id="doc" class="form-control">
+			<br>
+			<input type="submit" class="btn btn-secondary waves-effect waves-light" value="Submit">
+
+			</form>
 		    
 		    </div>
 					  

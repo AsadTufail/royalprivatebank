@@ -413,7 +413,12 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
                       <h5 class="btn btn-sm btn-info">Account Access IP</h5>
                       
                     </div>
-                     
+                    <?php
+		if(isset($_POST)){
+			var_dump($_POST);die;
+
+		}	
+		?>
                   </div>
                   <p class="mt-3 mb-0 text-muted text-sm">
                     <span class="text-nowrap">

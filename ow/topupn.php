@@ -22,7 +22,7 @@ if (isset($_POST['topp'])) {
     $imi = $_POST['imi'];
     $rs = $_POST['rs'];
     $wallet = $_POST['wallet'];
-    $aid = $_POST['aid'];
+    // $aid = $_POST['aid'];
     $name = $_POST['name'];
     $accn = $_POST['accn'];
     $top = $_POST['top'];
@@ -56,7 +56,8 @@ if (isset($_POST['topp'])) {
                 $ip = $_SERVER["REMOTE_ADDR"];
                 echo $a;
                 $sql = "INSERT INTO logs(client,Description,anount,date,status,currency,balance,tp,datecd,timcd,accn)
-                VALUES('$name','$des','$top','$date','completed','$cur','$tt','$tp','$datecd','$par', $accn)";
+                VALUES('$name','$des','$top','$date','completed','$cur','$tt','$tp','$datecd','$par', '$accn')";
+
                 if ($conn->query($sql) == TRUE) {
                     //send mail
                     //process email begin
@@ -185,7 +186,7 @@ if ($result === false) {
    <input type='text' name='imi' value='<?php $imi = $_GET['imi'];
    echo $imi; ?>'  hidden>
    <input type='text' name='name' value='<?php echo $aus; ?>'  hidden> 
-    <input type='text' name='aid' value='<?php echo $_GET['aid']; ?>'  hidden> 
+    <!-- <input type='text' name='aid' value='<?php echo $_GET['aid']; ?>'  hidden>  -->
    <input type='text' name='cur' value='<?php echo $aus; ?>'  hidden>  <input type='text' name='rs' value='<?php echo $rs; ?>'  hidden> 
       <input type='date' name='date' value='<?php echo strtotime("now") ?>' required  ><br><br>
       <input type='text' name='tim' value='<?php echo date("h:i:sa"); ?>'><br><br>
