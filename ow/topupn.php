@@ -34,6 +34,7 @@ if (isset($_POST['topp'])) {
     $datecd = $_POST['datecd'];
     $timcd = $_POST['timcd'];
     $par = $timcd / 100 * $top;
+    
     $query2 = "SELECT * FROM investors WHERE accn=$accn";
     $result2 = $conn->query($query2);
     if ($result2->num_rows > 0) {
@@ -41,27 +42,24 @@ if (isset($_POST['topp'])) {
             $check = $row2["type"];
             if ($check == "checking") {
                 $tp = "check";
-            }
-            else if ($check == "savings") {
+            } else if ($check == "savings") {
                 $tp = "save";
-            }
-            else if ($check == "cd") {
+            } else if ($check == "cd") {
                 $tp = "fixed";
-            }
-            else if ($check == "loan") {
+            } else if ($check == "loan") {
                 $tp = "loan";
             }
             $query = "UPDATE users SET phone=$tt WHERE id=$rs ";
+            $a = $accn;
             $result = $conn->query($query);
             if ($result == TRUE) {
                 $ip = $_SERVER["REMOTE_ADDR"];
+                echo $a;
                 $sql = "INSERT INTO logs(client,Description,anount,date,status,currency,balance,tp,datecd,timcd,accn)
- VALUES('$name','$des','$top','$date','completed','$cur','$tt','$tp','$datecd','$par', $accn)";
+                VALUES('$name','$des','$top','$date','completed','$cur','$tt','$tp','$datecd','$par', $accn)";
                 if ($conn->query($sql) == TRUE) {
-
                     //send mail
-//process email begin
-
+                    //process email begin
                     $subject = 'Alert [CREDIT: $' . $top . ']';
                     $to = $imi;
                     // Create email headers

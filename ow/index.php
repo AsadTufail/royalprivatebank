@@ -608,13 +608,7 @@ if(!isset($client)){ header("location:logout.php"); }
                 </svg>
                 <span class="ml-4">Delete Account</span>
               </a>
-            </li>            
-			
-			
-			
-			
-			
-			
+            </li>           
           </ul>
           <div class="px-6 my-6">
 		  
