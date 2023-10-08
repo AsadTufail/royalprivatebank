@@ -72,7 +72,7 @@
                       echo '<div class="col-6">
                         <div class="stat-box">
                             <div class="title">Savings Balance</div>
-                            <div class="value mb-1">$' . $acc_s . '</div>
+                            <div class="value mb-1">' . $acc_s . '</div>
                             <div class="value text-success">$' . $awamoney3 . '</div>
                         </div>
                     </div>';
@@ -112,7 +112,7 @@
                             echo '<div data-bs-toggle="modal" data-bs-target="#exchangeActionSheetCD" class="col-6">
                                     <div class="stat-box">
                                         <div class="title">Certificate of Deposit</div>
-                                        <div class="value mb-1">$' . $acc_cd . '</div>
+                                        <div class="value mb-1">' . $acc_cd . '</div>
                                         <div class="value text-success">$' . $awamoney . '</div>
                                     </div>
                                 </div>';
